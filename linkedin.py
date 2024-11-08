@@ -8,7 +8,6 @@ import json
 from selenium.webdriver.common.keys import Keys
 # Create a driver instance
 driver = webdriver.Chrome()
-#driver.delete_all_cookies()
 if not os.path.isfile('cookies.json'):
     email = "linked in email"
     password = "limked in password"
